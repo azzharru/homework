@@ -23,17 +23,87 @@
         <form action="#" method="">
         <div>
             <p>
-                Your name: <br>
+                Имя: <br>
                 <input type="text" name="name" placeholder="Enter your name..." value=""> 
             </p>
             <p>
-                Your surname: <br>
+                Фамилия: <br>
                 <input type="text" name="surname" placeholder="Enter your surname..." value="">
             </p>     
             <p>
-                Your father name: <br>
+                Отчесто: <br>
                 <input type="text" name="fathername" placeholder="Enter your father name..." value="">
             </p>
+        </div>
+        <div>
+            Телефон номер: <br>
+            <input type="tel" name="telephone" placeholder="+998  -   -  -  " >
+        </div>
+        <br>
+        <div>
+            Введите почту! <br>
+            <input type="email" name="usermail" placeholder="Email...">
+        </div>
+        <br>
+        <div>
+            Введите пароль! <br>    
+            <input type="password" name="userpass" placeholder="Enter your password...">
+        </div>
+        <br>
+        <div>
+            Отправьте свое фото! <br>
+            <input type="file" name="photo">
+        </div>
+        <br>
+        <div>
+            Ведите ваш возраст! <br>
+            <input type="date" name="age"  placeholder="your date of birth..." value="">
+        </div>
+        <br>
+        <div>
+            Выберите пол: <br>
+            <input type="radio" name="sex" value="male">male
+            <input type="radio" name="sex" value="female">female
+        </div>
+        <br>
+        <div>
+            <p>
+                Место рождения: <br>
+                <input type="adress" name="adress" placeholder="Enter address..." value="">
+            </p> 
+            <p>
+                Место проживания: <br>
+            <input type="adress" name="adress" placeholder="Enter address..." value="">
+            </p>
+        </div>
+        <br>
+        <div>
+            Какие языки вы знаете?
+            <p>Узбекский<input type="checkbox" name="languages"></p>
+            <p>Русский<input type="checkbox" name="languages"></p>
+            <p>Англиский<input type="checkbox" name="languages"></p>
+            <p>Другие<input type="text" name="languages"></p>
+        </div>
+        <br>
+        <div>
+            Выберите вaш любимый цвет!
+            <p>
+                <select name="colors">
+                    <option value="red">Красный</option>
+                    <option value="green">Зеленый</option>
+                    <option value="blue">Синий</option>
+                </select>
+            </p>
+            
+        </div>
+        <br>
+        <div>Оставте комментарий !
+            <p><textarea name="text" cols="25" rows="5" placeholder="комментарий..."></textarea></p>
+        </div>
+        <br>
+        <div>
+            <button type="reset">Очистить!</button>
+            <button type="submit">Отправить!</button>
         </div>
         </form>
     </body>
